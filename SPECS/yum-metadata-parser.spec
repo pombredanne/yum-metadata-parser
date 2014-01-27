@@ -4,7 +4,7 @@
 Summary: A fast metadata parser for yum
 Name: yum-metadata-parser
 Version: 1.1.4
-Release: 8%{?dist}
+Release: 10%{?dist}
 Source0: http://linux.duke.edu/projects/yum/download/%{name}/%{name}-%{version}.tar.gz
 Patch0: BZ-612409-handle-2GB-rpms.patch
 License: GPLv2
@@ -47,6 +47,12 @@ Fast metadata parser for yum implemented in C.
 %{python_sitelib_platform}/*egg-info
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.1.4-10
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.1.4-9
+- Mass rebuild 2013-12-27
+
 * Fri Feb 15 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.1.4-8
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
